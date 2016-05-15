@@ -18,7 +18,7 @@ wp-content/plugins/*
 
 # Ignore everything in the "themes" directory, except the themes you specify
 wp-content/themes/*
-!wp-content/themes/final-bhs/
+!wp-content/themes/yl-bhs/
 
 node_modules
 .sass-cache
