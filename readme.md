@@ -100,7 +100,7 @@ View Your WordPress project (through the eyes of your custom theme)
 Tasks (100 total points)
 
 
-* [x]  Turn on computer (29pts)
+* [x] Turn on computer (29pts)
 * [x] Create a local WordPress install inside `Sites` (1pt)
 * [x] Have `Git` working on your local site. (1pt)
 * [x] Create a remote `GitHub` repository (1pt)
@@ -120,24 +120,25 @@ Tasks (100 total points)
     * [ ] Use `FTP` program like `Filezilla`
     * [ ] Set up remote database
     * [ ] Install and use `WP-CLI` on staging server
-* [ ] Install the following plugins: (4pt)
+* [x] Install the following plugins: (4pt)
     * [x] activate and use `Contact Form 7` plugin
     * [x] `Yoast SEO`
-    * [ ] `WordFence`
-    * [ ] add screenshot of list of plugins using `WP-CLI` to `README.md`
+    * [x] `WordFence`
+    * [x] add screenshot of list of plugins using `WP-CLI` to `README.md`
     * ! [link to screenshot](https://i.imgur.com/qxKJcVV.png)
     * ! [link to screenshot](https://i.imgur.com/Uhqq77k.png)
  * [x] Delete all themes except your custom theme and WordPress `twentysixteen` theme using `WP-CLI` (1pt)
  * ! [link to screenshot](https://i.imgur.com/dEQjwUa.png)
-    * [ ] add screenshot of list of themes using WP-CLI to `README.md`
+    * [x] add screenshot of list of themes using WP-CLI to `README.md`
 * [ ] Use `Twitter Bootstrap` for grid/layout (1pt)
 * [x] Use `WP-CLI` to install locally (1pt)
-* [ ] Create `Sublime Text` project file with core and theme (1pt)
-   * [ ] add screenshot in `README.md`
-* [ ] Add `screenshot.png` with correct size dimensions for custom theme (1pt)
+* [x] Create `Sublime Text` project file with core and theme (1pt)
+   * [x] add screenshot in `README.md`
+   * ! [link to screenshot](https://i.imgur.com/aHP1m6q.png)
+* [x] Add `screenshot.png` with correct size dimensions for custom theme (1pt)
 * [ ] Use `Sass` on project (1pt)
 * [ ] Use `Gulp` on project (1pt)
-* [ ] Convert PSD into `HTML` and `CSS` (5pts)
+* [x] Convert PSD into `HTML` and `CSS` (5pts)
 * [ ] Create a Blog page (1pt)
 * [ ] Create 10 posts (1pt)
 * [ ] Style Blog page (1pt)
@@ -161,11 +162,11 @@ Tasks (100 total points)
 * [ ] Add favicon (1pt)
 * [ ] Add a dynamic copyright using PHP (1pt)
 * [ ] Hava a static front page (1pt)
-* [ ] Add Debug code to `wp-config.php` (1pt)
+* [x] Add Debug code to `wp-config.php` (1pt)
 * [ ] Add 3 users with different permissions (1pt)
 * [ ] Backdate 1 post (1pt)
 * [ ] Add categories to posts (1pt)
-* [ ] Add special comment to `style.css` (1pt)
+* [x] Add special comment to `style.css` (1pt)
 * [ ] Create a page using a different template (1pt)
 * [x] Have `package.json` file with dependencies used in project (1pt)
 * [ ] Make site responsive (1pt)
