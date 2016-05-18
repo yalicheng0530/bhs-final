@@ -59,23 +59,26 @@
             </nav>
         </header>
         <aside id="left-aside">
-            <ul>
-                <li>
-                    <a href="#">Community Assessment Services Center</a>
-                </li>
-                <li>
-                    <a href="#">Residential</a>
-                </li>
-                <li>
-                    <a href="#">Youth</a>
-                </li>
-                <li>
-                    <a href="#">Detox</a>
-                </li>
-                <li>
-                    <a href="#">Dental Health</a>
-                </li>
-            </ul>
+            <p>
+                <a href="#">Community Assessment Services Center</a>
+                <hr>
+                <ul>
+
+                <li id="active"><a href="#"><i class="fa-li fa fa-spinner fa-spin"></i>Prevention &amp; Services for Older Adults</a></li>
+                <li><a href="#">BHS/Media Education Program</a></li>
+                <li><a href="#">BHS/Promotores de Salud Project</a></li>
+                <li><a href="#">BHS/South Bay Senior Services</a></li>
+                </ul>
+                <hr>
+                <a href="#">Residential</a>
+                <hr>
+                <a href="#">Youth</a>
+                <hr>
+                <a href="#">Detox</a>
+                <hr>
+                <a href="#">Dental Health</a>
+                <hr>
+            </p>
             <div class="involve">
                 <h3>Get Involved!</h3>
                 <div class="involve-box">

@@ -100,36 +100,38 @@ View Your WordPress project (through the eyes of your custom theme)
 Tasks (100 total points)
 
 
- [x]  Turn on computer (29pts)
- [x] Create a local WordPress install inside `Sites` (1pt)
- [x] Have `Git` working on your local site. (1pt)
- [x] Create a remote `GitHub` repository (1pt)
-* [ ] Your project has a `README.md` that includes: (5pts)
-    * [ ] Name of project
-    * [ ] Description of project
-    * [ ] Installation Instructions
-    * [ ] Bullet list of all tasks completed for final project
-    * [ ] Proper use of markdown must be used in `README.md`
+* [x]  Turn on computer (29pts)
+* [x] Create a local WordPress install inside `Sites` (1pt)
+* [x] Have `Git` working on your local site. (1pt)
+* [x] Create a remote `GitHub` repository (1pt)
+* [x] Your project has a `README.md` that includes: (5pts)
+    * [x] Name of project
+    * [x] Description of project
+    * [x] Installation Instructions
+    * [x] Bullet list of all tasks completed for final project
+    * [x] Proper use of markdown must be used in `README.md`
 * [ ] URL of final project on github emailed to instructor (1pt)
- [x] Functional `.gitignore` in root of WordPress project (1pt)
+* [x] Functional `.gitignore` in root of WordPress project (1pt)
 * [ ] At least 20 `Git` commits have been made. (1pt)
- [x] Create database using MAMP (1pt)
- [x] Proper naming convention of files, folders (1pt)
- [x] Create a custom theme folder with necessary files (5pts)
+* [x] Create database using MAMP (1pt)
+* [x] Proper naming convention of files, folders (1pt)
+* [x] Create a custom theme folder with necessary files (5pts)
 * [ ] Migrate local development site to staging server (3pts)
     * [ ] Use `FTP` program like `Filezilla`
     * [ ] Set up remote database
     * [ ] Install and use `WP-CLI` on staging server
 * [ ] Install the following plugins: (4pt)
-     [x] activate and use `Contact Form 7` plugin
-     [x] `Yoast SEO`
+    * [x] activate and use `Contact Form 7` plugin
+    * [x] `Yoast SEO`
     * [ ] `WordFence`
     * [ ] add screenshot of list of plugins using `WP-CLI` to `README.md`
- [x] Delete all themes except your custom theme and WordPress `twentysixteen` theme using `WP-CLI` (1pt)
- ! [link to screenshot](https://i.imgur.com/dEQjwUa.png)
+    * ! [link to screenshot](https://i.imgur.com/qxKJcVV.png)
+    * ! [link to screenshot](https://i.imgur.com/Uhqq77k.png)
+ * [x] Delete all themes except your custom theme and WordPress `twentysixteen` theme using `WP-CLI` (1pt)
+ * ! [link to screenshot](https://i.imgur.com/dEQjwUa.png)
     * [ ] add screenshot of list of themes using WP-CLI to `README.md`
 * [ ] Use `Twitter Bootstrap` for grid/layout (1pt)
- [x] Use `WP-CLI` to install locally (1pt)
+* [x] Use `WP-CLI` to install locally (1pt)
 * [ ] Create `Sublime Text` project file with core and theme (1pt)
    * [ ] add screenshot in `README.md`
 * [ ] Add `screenshot.png` with correct size dimensions for custom theme (1pt)
@@ -165,7 +167,7 @@ Tasks (100 total points)
 * [ ] Add categories to posts (1pt)
 * [ ] Add special comment to `style.css` (1pt)
 * [ ] Create a page using a different template (1pt)
- [x] Have `package.json` file with dependencies used in project (1pt)
+* [x] Have `package.json` file with dependencies used in project (1pt)
 * [ ] Make site responsive (1pt)
 * [ ] Add an image via upload in WordPress and show image on post (1pt)
 * [ ] Add logo image to `front-page.php` (1pt)

@@ -231,7 +231,7 @@ aside {
 }
 
 #left-aside a {
-    border-bottom: solid 1px #505050;
+    /*border-bottom: solid 1px #505050;*/
     padding-top: 20px;
     padding-bottom: 20px;
 }
