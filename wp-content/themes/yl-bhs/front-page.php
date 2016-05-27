@@ -70,13 +70,12 @@
             <img src="<?php bloginfo('template_directory'); ?>/_img/head_img.jpg" alt="heading image" class="img-responsive">
         </div>
         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-            <h2>Prevention &amp; Services for Older Adults</h2>
-            <p class="remove-left-padding">
-            Older adults use more drugs than any other age group and are at high risk for drug related problems. This unique health education program teaches older adults about the dangers of prescription and over-the-counter drug misuse in a four session series, entitled Take Charge of Your Health, presented at senior centers, retirement housing facilities, churches and other locations in Southern California. Additional health promotion classes are also presented at eligible sites.
-             </p>
-            <p class="remove-left-padding">
-            For service providers who work with the older adults, the program presents in-service training sessions and conferences to promote increased awareness and encourage the development of prevention and intervention strategies suitable for older clients.
-            </p>
+            <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+
+                      <?php the_content(); ?>
+
+                    <?php endwhile; endif; ?>
+
 <!-- HTML5 Canvas -->
 <canvas width="340" height="1" style="border-top:1px solid #eeeeee;"></canvas>
         </div>
