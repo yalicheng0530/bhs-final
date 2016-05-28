@@ -33,6 +33,15 @@
             <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 cert-logos">
                 <a href="#"><img src="<?php bloginfo('template_directory'); ?>/_img/carf_logo.png" alt="cart certification logo"></a>
             </div>
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 awesome">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+            </div>
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 awesome">
+                <i class="fa fa-facebook-square" aria-hidden="true"></i>
+            </div>
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 awesome">
+                <i class="fa fa-youtube" aria-hidden="true"></i>
+            </div>
         </div>
         <!-- END 3-column grid -->
         </div>
@@ -50,6 +59,7 @@
     <footer>
         <p>Copyright Behavioral Health Services &copy; 2011. All Rights Reserved.</p>
         <p>&copy; <?php bloginfo('name'); ?> <?php echo date('Y'); ?></p>
+
     </footer>
     <!-- END footer -->
     <?php wp_footer(); ?>

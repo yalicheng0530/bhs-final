@@ -31,37 +31,35 @@
           </ul>
           <!-- END .top-nav -->
           <a href="#" class="facebook-icon"><img class="facebook-button" src="<?php bloginfo('template_directory'); ?>/_img/facebook-btn.png" alt="facebook button"></a>
-        <div class="search-container">
+            <div class="search-container">
             <form class="search-form" method="get" action="#">
               <input class="search-input" type="text" onFocus="this.value=(this.value=='Search...')? '' : this.value ;" value="Search..." name="search">
               <input class="search-submit" type="image" value="Search" src="<?php bloginfo('template_directory'); ?>/_img/search-btn.gif">
             </form>
-        <!-- END .search-form -->
-        </div>
-        <!-- END .search-container -->
-        <a href="#" class="donate" target="_blank">
-          <img src="<?php bloginfo('template_directory'); ?>/_img/donate-btn.png" alt="donate button">
-        </a>
-        <!-- END .donate -->
+            <!-- END .search-form -->
+            </div>
+            <!-- END .search-container -->
+            <a href="#" class="donate" target="_blank">
+              <img src="<?php bloginfo('template_directory'); ?>/_img/donate-btn.png" alt="donate button">
+            </a>
+            <!-- END .donate -->
         </div>
         <!-- END .misc-items -->
-            <nav class="navbar navbar-default" role="navigation">
-                <div class="container-fluid">
-                <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+        <!-- start nav -->
+        <nav class="navbar navbar-default">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
-                </button>
-                <a href="#">
-                    <img class="logo" src="<?php bloginfo('template_directory'); ?>/_img/bhs_logo.png" alt="bhs logo">
-                </a>
-                </div>
-                <!-- END .navbar-header -->
-        <div class="collapse navbar-collapse" id="navbar-collapse-1">
-              <div id="navbar" class="navbar-collapse collapse">
-               <?php
+              </button>
+              <!-- <a class="navbar-brand" href="#"><img src="img/logo.jpg" alt="logo"></a> -->
+              <a class="navbar-brand" href="#"><img class="logo" src="<?php bloginfo('template_directory'); ?>/_img/bhs_logo.png" alt="logo" /></a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <?php
                 $args = array(
                  'menu'    => 'header-menu',
                  'menu_class' => 'nav navbar-nav',
@@ -69,21 +67,10 @@
                 );
                 wp_nav_menu( $args );
                ?>
-              </div>
-              <!-- <ul class="nav navbar-nav">
-                <li class="active"><a href="#">HOME</a></li>
-                <li><a href="#">ABOUT US</a></li>
-                <li><a href="#">SERVICES</a></li>
-                <li><a href="#">ADDICTION</a></li>
-                <li><a href="#">APPOINTMENT</a></li>
-                <li><a href="#">CONTACT</a></li>
-              </ul> -->
-        </div>
-        <!-- END .navbar-collapse -->
-        </div>
-        <!-- END .container-fluid -->
+            </div><!--/.navbar-collapse -->
+          </div>
         </nav>
-        <!-- END nav -->
+        <!-- end nav -->
   </header>
 <!-- END header -->
 

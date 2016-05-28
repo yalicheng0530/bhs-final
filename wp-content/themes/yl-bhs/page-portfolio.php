@@ -5,8 +5,10 @@
 ?>
 <?php get_header(); ?>
 
-  <div class="container">
-    <div class="row">
+
+<div class="row">
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
       <div class="col-md-12">
         <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
           <!-- tbs class for headers -->
@@ -26,7 +28,8 @@
           <p>Looks like we have no content for this page?</p>
 
         <?php endif; ?>
-      </div>
+  </div>
+</div>
 
     </div><!-- END .row -->
 
@@ -57,8 +60,6 @@
       <?php endif; ?>
 
     <?php endwhile; endif; ?>
-    </div><!-- END .row -->
-
-
+    </div>
 
 <?php get_footer(); ?>

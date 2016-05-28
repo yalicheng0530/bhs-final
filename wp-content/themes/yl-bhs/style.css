@@ -10,6 +10,11 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Code and take over the world line-by-line
 */
 
+/*-------------------------------------
+| Import Font Awesome
+-------------------------------------*/
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+
 hr { margin: 15px; }
 
 body {
@@ -59,6 +64,7 @@ header {
 .top-nav{
     font-size:12px;
     padding-left: 125px;
+    list-style: none;
 }
 
 .top-nav a {
@@ -77,14 +83,10 @@ header {
     border: none;
     padding-right: 0px;
 }
-ul{
-    list-style: none;
-}
+
 .top-nav li {
     padding-top: 25px;
     float: left;
-}
-li {
     font-size: 12px;
 }
 
@@ -122,21 +124,17 @@ header .logo {
     left: 10px;
     z-index: 99;
 }
-.navbar-nav{
-    /*border:3px solid green;*/
+
+.navbar-nav {
     width: 100%;
     text-align: center;
-    /*margin-left: 300px;*/
 }
 
-.navbar-nav li {
+.navbar-nav  li {
     float: none;
     display: inline-block;
-    color: #505050;
-    text-transform: uppercase;
-    font-size: 15px;
-    text-decoration: none;
 }
+
 
 /*-------------------------------------
 | aside-left
@@ -225,6 +223,14 @@ a:visited {
 .donate-btn-btm {
     text-align: center;
 }
+
+.donate-btn-btm img {
+        width: 100%;
+        align: center;
+        max-width: 242px;
+        max-height: auto;
+        padding-bottom: 20px;
+    }
 
 /*-------------------------------------
 | middle
@@ -363,20 +369,34 @@ footer p {
     .sub-menu {
         display: none;
         position: absolute;
-        background: #0A1A35;
+        background-color: #091f37;
         padding: 10px 15px;
         width: 200px;
     }
 
-    li:hover .sub-menu {
-        display: block;
+    #navbar ul ul {
+        float: right;
+        text-align: left;
+        position: absolute;
+        z-index: 99999;
     }
+
+    li:hover .sub-menu {
+    display: block;
+    }
+
 }
 
-.sub-menu li {
-    margin-bottom: 5px;
-    list-style: none;
+@media (max-width: 768px) {
+
+    #navbar ul li{
+    text-align: left;
+    display: block;
+    }
+
 }
+
+
 
 .sidebar {
   margin-top: 40px;
@@ -411,4 +431,72 @@ article.post {
 .portfolio-piece img,
 .portfolio-image img {
     max-width: 100%;
+}
+
+
+/*-------------------------------------
+| 0527
+-------------------------------------*/
+@media screen and (max-width: 1200px) {
+    .search-container {
+        display: none;
+    }
+
+    .aside-box p {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    img.facebook-icon {
+        display: none;
+    }
+
+    .donate {
+        display: none;
+    }
+
+    .sidebar-background {
+        display: none;
+    }
+
+    .footer-border {
+        border-right: none;
+    }
+
+    .cert-logos {
+        text-align: center;
+        padding: 0px;
+    }
+
+    .get-involved {
+        display: inline;
+    }
+
+    .aside-box p {
+        width: 80%;
+    }
+
+    .facebook-button {
+        display: none;
+    }
+
+}
+
+/*-------------------------------------
+| Font Awesome
+-------------------------------------*/
+.awesome { margin-top: 30px;}
+
+.fa {
+    color: #ffffff;
+    transition: 1s all;
+    font-size: 30px;
+}
+
+.fa-spin {
+    font-size:10px;
+    color:#D84927;
+    left: 3px;
+    top: 10px;
 }

@@ -76,8 +76,8 @@
 
                     <?php endwhile; endif; ?>
 
-<!-- HTML5 Canvas -->
-<canvas width="340" height="1" style="border-top:1px solid #eeeeee;"></canvas>
+                <!-- HTML5 Canvas -->
+                <canvas width="340" height="1" style="border-top:1px solid #eeeeee;"></canvas>
         </div>
             <!-- END 6-column grid -->
 
@@ -85,7 +85,7 @@
         <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
             <p>
                 <img class="fbimg" src="<?php bloginfo('template_directory'); ?>/_img/social_media.png">
-                <article class="my-facebook-entry clearfix">
+            <article class="my-facebook-entry clearfix">
                 <hgroup>
                     <h3>Latest News</h3>
                     <hr>
@@ -106,18 +106,18 @@
                     <h6><strong>932-Counselor I-HWD</strong></h6>
                     <h6><span class="dateText">May 9, 2011 10:21 AM</span></h6>
                 </hgroup>
-<!-- END hgroup -->
+                        <!-- END hgroup -->
             <a class="moreinfo" href="#">Click here for more postings</a>
             </article>
                 <!-- END .recent-job-post article -->
-        </p>
+            </p>
 
         </div>
     </div>
     <!-- END 6-column grid -->
 
         <!-- END 4-column grid -->
-    </div>
+
     <!-- END 12-column grid -->
 </div>
 <!-- END .row -->
