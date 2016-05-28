@@ -28,12 +28,12 @@
           <p>Looks like we have no content for this page?</p>
 
         <?php endif; ?>
+      </div>
   </div>
-</div>
 
-    </div><!-- END .row -->
+</div><!-- END .row -->
 
-     <div class="row">
+<div class="row">
 
       <?php
         $args = array(
@@ -60,6 +60,6 @@
       <?php endif; ?>
 
     <?php endwhile; endif; ?>
-    </div>
+</div>
 
 <?php get_footer(); ?>

@@ -26,18 +26,18 @@
           <!-- WP function that outputs post content -->
 
 
-        <?php endwhile; else: ?>
+      <?php endwhile; else: ?>
            <!-- we run this else if there is no content -->
-          <div class="page-header">
-            <h1>Wups!</h1>
-          </div>
+      <div class="page-header">
+              <h1>Wups!</h1>
+            </div>
 
-          <p>Looks like we have no content for this page?</p>
+            <p>Looks like we have no content for this page?</p>
 
-        <?php endif; ?>
+          <?php endif; ?>
       </div>
 
-      <?php get_sidebar( 'blog' ); ?>
+          <?php get_sidebar( 'blog' ); ?>
 
   </div>
 </div><!-- END .row -->

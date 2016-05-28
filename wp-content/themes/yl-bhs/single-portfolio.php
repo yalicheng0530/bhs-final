@@ -2,8 +2,8 @@
 
 
 
-  <div class="page-header">
-     <div class="row">
+<div class="page-header">
+  <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
        <div class="col-xs-9">
          <h1>Players</h1>
@@ -44,7 +44,7 @@
 
         <?php endif; ?>
       </div>
-    </div><!-- END .row -->
+</div>
 
 
 <?php get_footer(); ?>
