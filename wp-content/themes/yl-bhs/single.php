@@ -20,6 +20,15 @@
                  <a href="<?php comments_link(); ?>"><?php comments_number(); ?></a></em>
                  <hr>
                  <?php the_content(); ?>
+                <div class="col-md-12 portfolio-piece">
+                   <?php
+                     $thumbnail_id = get_post_thumbnail_id();
+                     $thumbnail_url = wp_get_attachment_image_src( $thumbnail_id, 'thumbnail-size', true );
+                   ?>
+
+                  <p><a href="<?php the_permalink(); ?>"><img src="<?php echo $thumbnail_url[0]; ?>" alt="<?php the_title(); ?> graphic"></a></p>
+                    <h4><a href="<?php the_permalink(); ?>"></a></h4>
+                </div>
               </p>
               <?php comments_template(); ?>
           </article>
