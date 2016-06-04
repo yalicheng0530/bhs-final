@@ -117,7 +117,7 @@ Tasks (100 total points)
 * [x] Proper naming convention of files, folders (1pt)
 * [x] Create a custom theme folder with necessary files (5pts)
 * [ ] Migrate local development site to staging server (3pts)
-    * [ ] Use `FTP` program like `Filezilla`
+    * [x] Use `FTP` program like `Filezilla`
     * [ ] Set up remote database
     * [ ] Install and use `WP-CLI` on staging server
 * [x] Install the following plugins: (4pt)
