@@ -24,10 +24,10 @@
       <header>
         <div class="misc-items">
           <ul class="top-nav">
-            <li><a href="index.html">Home</a> </li>
-            <li><a href="about-us.html">About Us</a> </li>
-            <li><a href="faq.html">FAQ</a>  </li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="index.php">Home</a> </li>
+            <li><a href="index.php">About Us</a> </li>
+            <li><a href="index.php">FAQ</a>  </li>
+            <li><a href="index.php">Contact</a></li>
           </ul>
           <!-- END .top-nav -->
           <a href="#" class="facebook-icon"><img class="facebook-button" src="<?php bloginfo('template_directory'); ?>/_img/facebook-btn.png" alt="facebook button"></a>
