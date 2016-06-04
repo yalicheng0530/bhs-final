@@ -12,7 +12,7 @@ Template Name: Archive
         <div class="page-header">
            <!-- gives us the name of the page itself -->
             <h1><?php wp_title(''); ?></h1>
-            <h1>Post Archives</h1>
+            <h1>Post by Archives</h1>
         </div>
         <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
