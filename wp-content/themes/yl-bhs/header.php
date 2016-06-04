@@ -56,7 +56,15 @@
                 <span class="icon-bar"></span>
               </button>
               <!-- <a class="navbar-brand" href="#"><img src="img/logo.jpg" alt="logo"></a> -->
-              <a class="navbar-brand" href="#"><img class="logo" src="<?php bloginfo('template_directory'); ?>/_img/bhs_logo.png" alt="logo" /></a>
+              <?php if( is_page('23') ) : ?>
+              <a class="navbar-brand" href="#">
+              <img class="logo" src="<?php bloginfo('template_directory'); ?>/_img/orange_bhs_logo.png" alt="logo" />
+              </a>
+              <?php else : ?>
+              <a class="navbar-brand" href="#">
+              <img class="logo" src="<?php bloginfo('template_directory'); ?>/_img/bhs_logo.png" alt="logo" />
+              </a>
+              <?php endif; ?>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <?php
@@ -73,4 +81,3 @@
         <!-- end nav -->
   </header>
 <!-- END header -->
-
