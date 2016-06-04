@@ -112,7 +112,7 @@ Tasks (100 total points)
     * [x] Proper use of markdown must be used in `README.md`
 * [ ] URL of final project on github emailed to instructor (1pt)
 * [x] Functional `.gitignore` in root of WordPress project (1pt)
-* [ ] At least 20 `Git` commits have been made. (1pt)
+* [x] At least 20 `Git` commits have been made. (1pt)
 * [x] Create database using MAMP (1pt)
 * [x] Proper naming convention of files, folders (1pt)
 * [x] Create a custom theme folder with necessary files (5pts)
