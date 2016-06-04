@@ -524,3 +524,15 @@ article.post {
 .portfolio-image img {
     max-width: 100%;
 }
+
+.btn-primary {
+    color: #fff;
+    background-color: #F68913;
+    border-color: #C85F0E;
+}
+
+.btn-primary:hover{
+    color: #fff;
+    background-color: #C85F0E;
+    border-color: #F68913;
+}

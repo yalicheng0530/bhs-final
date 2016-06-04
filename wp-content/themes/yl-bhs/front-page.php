@@ -51,6 +51,7 @@
                     <div class="aside-box donate-btn-btm">
                         <a href="#"><img src="<?php bloginfo('template_directory'); ?>/_img/donate-bottom-btn.png"></a>
                     </div>
+                    <?php get_sidebar(); ?>
                             <!-- END .aside-box -->
                 </div>
                             <!-- END .aside-box -->
@@ -111,6 +112,7 @@
             </article>
                 <!-- END .recent-job-post article -->
             </p>
+
 
         </div>
     </div>
