@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Archive
+Template Name: Category
 */
 ?>
 
@@ -11,8 +11,8 @@ Template Name: Archive
       <div class="col-md-9">
         <div class="page-header">
            <!-- gives us the name of the page itself -->
-            <h1><?php wp_title(''); ?></h1>
-            <h1>Post Archives</h1>
+            <h1><?php wp_title(''); ?> </h1>
+            <h1>Post Categories</h1>
         </div>
         <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 

@@ -536,3 +536,14 @@ article.post {
     background-color: #C85F0E;
     border-color: #F68913;
 }
+
+.widget h3{
+    color: #F68913;
+}
+
+.page-header h1{
+    color: #F68913;
+}
+.post p{
+    color: #4F455E;
+}
