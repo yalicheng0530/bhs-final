@@ -1,0 +1,554 @@
+/*
+Theme Name: Final BHS
+Author: Kingluddite
+Author URI: http://kingluddite.com/
+Description: A simple theme to showcase how to build a theme from Twitter Bootstrap
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+Code and take over the world line-by-line
+*/
+
+
+/*-------------------------------------
+| Import Font Awesome
+-------------------------------------*/
+
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+hr {
+  margin: 15px;
+}
+
+body {
+  background-color: #1B3356;
+  background-image: url(_img/bg_tile.png);
+  background-repeat: repeat;
+  background-position: center top;
+  /*    position: relative;
+      margin: 0;
+      padding: 0;
+      border: 0;
+      vertical-align: baseline;
+      margin: auto;
+      max-width: 1366px;
+      width: 100%;
+      height: auto;*/
+}
+
+.container {
+  /*border: solid 10px red;*/
+  /*background-color: #ffffff;*/
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: auto;
+}
+
+.main-content {
+  float: left;
+  background-color: #fff;
+  line-height: 1.5em;
+}
+
+
+/*-------------------------------------
+| header
+-------------------------------------*/
+
+header {
+  position: relative;
+  background-color: #666;
+}
+
+.misc-items {
+  height: 56px;
+  background-color: #0c2745;
+  position: relative;
+  margin-top: -10px;
+}
+
+.top-nav {
+  font-size: 12px;
+  padding-left: 125px;
+  list-style: none;
+  a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+    border-right: solid 2px #ffffff;
+    padding-right: 10px;
+    padding-left: 10px;
+    &:visited {
+      text-decoration: none;
+      color: #ffffff;
+    }
+    &.last {
+      border: none;
+      padding-right: 0px;
+    }
+  }
+  li {
+    padding-top: 25px;
+    float: left;
+    font-size: 12px;
+  }
+}
+
+header .facebook-icon {
+  position: absolute;
+  top: 10px;
+  left: 365px;
+  padding: 9px 10px 0 15px;
+}
+
+.search-container {
+  position: absolute;
+  top: 15px;
+  left: 675px;
+  width: 258px;
+  height: 37px;
+}
+
+.donate {
+  right: 0px;
+  top: 14px;
+  position: absolute;
+}
+
+.container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+header .logo {
+  position: absolute;
+  top: -48px;
+  left: 10px;
+  z-index: 99;
+}
+
+.navbar-nav {
+  width: 100%;
+  text-align: center;
+  li {
+    float: none;
+    display: inline-block;
+  }
+}
+
+
+/*-------------------------------------
+| aside-left
+-------------------------------------*/
+
+.row {
+  /*border:3px solid green;*/
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.sidebar-background {
+  box-shadow: -3px 3px 10px rgba(0, 0, 0, 0.2);
+  padding: 0px;
+}
+
+.main-content p {
+  padding: 10px;
+}
+
+.aside-box {
+  p {
+    font-size: 12px;
+    line-height: 1.4em;
+  }
+  a {
+    &:visited {
+      text-decoration: none;
+      color: #0c2745;
+    }
+    font-size: 12px;
+    color: #0c2745;
+    text-decoration: none;
+    /*margin-left: -7px;*/
+  }
+}
+
+#active a {
+  color: #e07c28;
+  text-decoration: none;
+  margin-left: -7px;
+  &:visited {
+    text-decoration: none;
+    color: #0c2745;
+  }
+}
+
+.aside-box {
+  &.boxed {
+    margin-top: 10px;
+    background-color: #f4f3f3;
+    padding: 5px;
+    border: 1px solid #eee;
+    margin-bottom: 10px;
+  }
+  img {
+    float: left;
+    margin-top: 8px;
+    padding-left: 10px;
+    padding-right: 5px;
+  }
+  p {
+    padding-top: 10px;
+    font-size: 10px;
+    line-height: 13px;
+    color: #787776;
+  }
+  h3 {
+    padding-top: 10px;
+    font-size: 20px;
+    line-height: 13px;
+    color: #e07c28;
+  }
+}
+
+a {
+  &.moreinfo {
+    text-decoration: underline;
+    color: #173f6b;
+    float: right;
+  }
+  &:visited {
+    text-decoration: none;
+    color: #0c2745;
+  }
+}
+
+.donate-btn-btm {
+  text-align: center;
+  img {
+    width: 100%;
+    align: center;
+    max-width: 242px;
+    max-height: auto;
+    padding-bottom: 20px;
+  }
+}
+
+
+/*-------------------------------------
+| middle
+-------------------------------------*/
+
+h1 {
+  &.main-header {
+    float: left;
+  }
+  font-size: 26px;
+}
+
+.breadcrumb {
+  padding: 0px 5px;
+  margin-bottom: 20px;
+  list-style: none;
+  background-color: #fff;
+  border-radius: 0px;
+  float: right;
+}
+
+img.img-responsive {
+  width: 100%;
+  height: auto;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+}
+
+h2 {
+  font-size: 24px;
+  padding-top: 15px;
+  color: #e07c28;
+}
+
+p.remove-left-padding {
+  padding: 10px 10px 10px 0px;
+}
+
+.fbimg {
+  width: 100%;
+  max-width: 238px;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+article h3 {
+  font-size: 18px;
+  color: #337ab7;
+}
+
+.dateText {
+  color: #f99b15;
+  font-size: 11px;
+}
+
+.authorText {
+  color: #e4e2e3;
+  font-size: 11px;
+}
+
+
+/*-------------------------------------
+| footer
+-------------------------------------*/
+
+.footer-border {
+  /*border:3px solid red;*/
+  border-right: 1px solid #091f37;
+  margin-top: 20px;
+}
+
+.cert-logos {
+  margin-top: 20px;
+}
+
+.well {
+  margin-top: 20px;
+  background-color: #0a2646;
+  margin-bottom: 0px;
+}
+
+.well-bottom {
+  h6 {
+    background-color: #091f37;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    color: #fff;
+  }
+  li {
+    color: #fff;
+    a {
+      color: #fff;
+    }
+  }
+}
+
+.bottom-well-margin {
+  margin-top: 0px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+footer p {
+  color: #fff;
+  font-size: 10px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+
+/*-------------------------------------
+| add
+-------------------------------------*/
+
+.admin-bar .navbar-fixed-top {
+  margin-top: 60px;
+}
+
+#navbar-brand {
+  color: #ffffff;
+}
+
+#navbar {
+  color: #FFFFFE;
+  text-transform: uppercase;
+  text-decoration: none;
+  a {
+    color: #0092D2;
+    &:hover {
+      color: #284585;
+    }
+  }
+}
+
+.current-menu-item > a {
+  color: #A70062;
+}
+
+@media (min-width: 768px) {
+  .sub-menu {
+    display: none;
+    position: absolute;
+    background-color: #091f37;
+    padding: 10px 15px;
+    width: 200px;
+  }
+  #navbar ul ul {
+    float: right;
+    text-align: left;
+    position: absolute;
+    z-index: 99999;
+  }
+  li:hover .sub-menu {
+    display: block;
+  }
+}
+
+@media (max-width: 768px) {
+  #navbar ul li {
+    text-align: left;
+    display: block;
+  }
+}
+
+.sidebar {
+  margin-top: 40px;
+  color: #444;
+  h3 {
+    color: #888;
+  }
+}
+
+.widget {
+  margin: 10px 0 30px;
+}
+
+
+/*-------------------------------------
+| post
+-------------------------------------*/
+
+article.post {
+  margin: 20px 0 40px;
+}
+
+.portfolio-piece img {
+  max-width: 100%;
+  max-width: 100%;
+}
+
+@media (min-width: 540px) {
+  .portfolio-piece h4 {
+    font-size: .8em;
+  }
+}
+
+
+/* make images reponsive */
+
+.portfolio-image img {
+  max-width: 100%;
+}
+
+
+/*-------------------------------------
+| 0527
+-------------------------------------*/
+
+@media screen and (max-width: 1200px) {
+  .search-container {
+    display: none;
+  }
+  .aside-box p {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  img.facebook-icon,
+  .donate,
+  .sidebar-background {
+    display: none;
+  }
+  .footer-border {
+    border-right: none;
+  }
+  .cert-logos {
+    text-align: center;
+    padding: 0px;
+  }
+  .get-involved {
+    display: inline;
+  }
+  .aside-box p {
+    width: 80%;
+  }
+  .facebook-button {
+    display: none;
+  }
+}
+
+
+/*-------------------------------------
+| Font Awesome
+-------------------------------------*/
+
+.awesome {
+  margin-top: 30px;
+}
+
+.fa {
+  color: #ffffff;
+  transition: 1s all;
+  font-size: 30px;
+}
+
+.fa-spin {
+  font-size: 10px;
+  color: #D84927;
+  left: 3px;
+  top: 10px;
+}
+
+
+/*-------------------------------------
+| post
+-------------------------------------*/
+
+article.post {
+  margin: 20px 0 40px;
+}
+
+
+/* make images reponsive */
+
+.portfolio-piece img,
+.featured-image img,
+.portfolio-piece img,
+.portfolio-image img {
+  max-width: 100%;
+}
+
+@media (min-width: 540px) {
+  .portfolio-piece h4 {
+    font-size: .8em;
+  }
+}
+
+
+/* make images reponsive */
+
+.btn-primary {
+  color: #fff;
+  background-color: #F68913;
+  border-color: #C85F0E;
+  &:hover {
+    color: #fff;
+    background-color: #C85F0E;
+    border-color: #F68913;
+  }
+}
+
+.widget h3,
+.page-header h1 {
+  color: #F68913;
+}
+
+.post p {
+  color: #4F455E;
+}

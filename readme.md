@@ -118,7 +118,7 @@ Tasks (100 total points)
 * [x] Create a custom theme folder with necessary files (5pts)
 * [ ] Migrate local development site to staging server (3pts)
     * [x] Use `FTP` program like `Filezilla`
-    * [ ] Set up remote database
+    * [x] Set up remote database
     * [ ] Install and use `WP-CLI` on staging server
 * [x] Install the following plugins: (4pt)
     * [x] activate and use `Contact Form 7` plugin
@@ -136,7 +136,7 @@ Tasks (100 total points)
    * [x] add screenshot in `README.md`
    * ! [link to screenshot](https://i.imgur.com/aHP1m6q.png)
 * [x] Add `screenshot.png` with correct size dimensions for custom theme (1pt)
-* [ ] Use `Sass` on project (1pt)
+* [x] Use `Sass` on project (1pt)
 * [ ] Use `Gulp` on project (1pt)
 * [x] Convert PSD into `HTML` and `CSS` (5pts)
 * [x] Create a Blog page (1pt)
