@@ -110,13 +110,13 @@ Tasks (100 total points)
     * [x] Installation Instructions
     * [x] Bullet list of all tasks completed for final project
     * [x] Proper use of markdown must be used in `README.md`
-* [ ] URL of final project on github emailed to instructor (1pt)
+* [x] URL of final project on github emailed to instructor (1pt)
 * [x] Functional `.gitignore` in root of WordPress project (1pt)
 * [x] At least 20 `Git` commits have been made. (1pt)
 * [x] Create database using MAMP (1pt)
 * [x] Proper naming convention of files, folders (1pt)
 * [x] Create a custom theme folder with necessary files (5pts)
-* [ ] Migrate local development site to staging server (3pts)
+* [x] Migrate local development site to staging server (3pts)
     * [x] Use `FTP` program like `Filezilla`
     * [x] Set up remote database
     * [ ] Install and use `WP-CLI` on staging server
